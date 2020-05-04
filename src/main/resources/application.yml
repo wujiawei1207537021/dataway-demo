@@ -1,0 +1,25 @@
+# 启用 Dataway 功能（默认不启用）
+HASOR_DATAQL_DATAWAY: true
+  # 开启 ui 管理功能（注意生产环境必须要设置为 false，否则会造成严重的生产安全事故）
+HASOR_DATAQL_DATAWAY_ADMIN: true
+
+  # （可选）API工作路径
+HASOR_DATAQL_DATAWAY_API_URL: /api/
+  # （可选）ui 的工作路径，只有开启 ui 管理功能后才有效
+HASOR_DATAQL_DATAWAY_UI_URL: /interface-ui/
+
+
+
+spring:
+  #数据库配置
+  datasource:
+    username: root
+    password: wujiawei
+    type: com.alibaba.druid.pool.DruidDataSource
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/dataway?useUnicode=true&characterEncoding=utf-8&useSSL=true&allowMultiQueries=true&serverTimezone=Asia/Shanghai
+    platform: h2
+    continue-on-error: true
+
+server:
+  port: 7780
