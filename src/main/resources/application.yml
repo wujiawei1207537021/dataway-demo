@@ -17,9 +17,9 @@ spring:
     password: wujiawei
     type: com.alibaba.druid.pool.DruidDataSource
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://127.0.0.1:3306/dataway?useUnicode=true&characterEncoding=utf-8&useSSL=true&allowMultiQueries=true&serverTimezone=Asia/Shanghai
+    url: jdbc:mysql://172.26.101.85:3306/dataway?useUnicode=true&characterEncoding=utf-8&useSSL=true&allowMultiQueries=true&serverTimezone=Asia/Shanghai
     platform: h2
     continue-on-error: true
 
 server:
-  port: 7780
+  port: 1780
