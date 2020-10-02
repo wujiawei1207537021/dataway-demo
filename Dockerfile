@@ -4,7 +4,7 @@ MAINTAINER wujiawei <wujiawei@supconit.com>
 RUN echo "Asia/Shanghai" > /etc/timezone
 RUN dpkg-reconfigure -f noninteractive tzdata
 
-ARG APP_NAME="data-way-demo"
+ARG APP_NAME="dataway-demo"
 
 COPY target/$APP_NAME-*.jar app.jar
 

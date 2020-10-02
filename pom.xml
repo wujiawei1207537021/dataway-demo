@@ -11,7 +11,7 @@
     </parent>
 
     <groupId>com.example</groupId>
-    <artifactId>dataway</artifactId>
+    <artifactId>dataway-demo</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>dataway</name>
     <description>Demo project for Spring Boot</description>
